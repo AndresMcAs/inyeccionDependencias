@@ -1,0 +1,14 @@
+<?xml version="1.0" ecoding="UTF-8"?>
+<beans xmlns="http://springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://www.springframework.org/schema/context 
+  http://www.springframework.org/schema/context/spring-context.xsd
+  http://www.springframework.org/schema/beans http://springframework.org/schema/beans/spring-beans.xsd">
+  
+  <beans id="chacos" class ="mx.edu.uacm.Chacos"> </beans>
+  <beans id="ninja" class="mx.edu.uacm.Ninja"></beans>
+  <property name="arma" ref="chacos"></property>
+  <prperty name ="mision" value="para nivel uno"></prperty>
+ 
+  </beans>
